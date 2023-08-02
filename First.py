@@ -39,5 +39,73 @@
 # y=20
 # print( "hey {1} Rohit {0}".format("regex", 100)  )  //hey 100 Rohit regex
 
-state="RAJASTHAN"
-print(state[0:4])
+# x=18
+# y=12
+# z=10
+
+# if(type(x)==int and type(y)==int and type(z)==int) :
+#     a=x+y+z
+#     print(a)
+
+# x=input("")
+# x=int(x)
+# # x =int(x)
+# # y=float(y)
+# if(type(x)==int or type(x)==float):
+#     if(x%2==0):
+#      print("even")
+#     else :
+#        print("odd")
+
+
+
+
+# a=input("enter the word ")
+# b=input("enter the search word")
+# if(b in a):
+#     print("alphabet is avaliable ",a)
+# else :
+#     print("word is not present")
+
+# ab=input("Enter char =")
+# # a=chr(a)
+# if(ab=='a'or ab=='e' or ab=='i' or ab=='o' or ab=='u'):
+#     print("vowels")
+# else :
+#     print("not vowel")
+
+
+
+# a=input("Enter the value : ")
+# a=int(a)
+# if(a>=40):
+#     print("value is more than 40")
+# elif(25<=a<=35):
+#     print("value between in 25 and 35")
+# elif(a>=18):
+#     print("value is more than 18")
+# else :
+#     print("please check your number")
+
+
+from datetime import date 
+import os
+
+a = input("Enter what you want to do: ")
+
+if( a == '1'):
+    today = date.today()
+    print("Current date:", today)
+
+
+elif(a=='2'):
+    print("hjfghjsd")
+    path = "D:/python/Third"
+    os.makedirs(path)
+
+    print("Succesfully created directory ", path)
+    print(os.getcwd())
+
+# else:
+#    print("bahar aa jao")
+
