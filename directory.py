@@ -21,3 +21,12 @@ elif(a=='2'):
 elif(a=='3'):
 
   pywhatkit.sendwhatmsg("+91 7688999695", "Tera account ho gya",10,1)
+
+elif(a=='4'):
+
+     path = "D:/python"
+     entries = os.listdir('D:/python')
+     os.listdir('D:/python/')
+     print(entries)
+    
+     

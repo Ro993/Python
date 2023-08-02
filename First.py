@@ -76,36 +76,17 @@
 
 
 
-# a=input("Enter the value : ")
-# a=int(a)
-# if(a>=40):
-#     print("value is more than 40")
-# elif(25<=a<=35):
-#     print("value between in 25 and 35")
-# elif(a>=18):
-#     print("value is more than 18")
-# else :
-#     print("please check your number")
+a=input("Enter the value : ")
+a=int(a)
+if(a>=40):
+    print("value is more than 40")
+elif(25<=a<=35):
+    print("value between in 25 and 35")
+elif(a>=18):
+    print("value is more than 18")
+else :
+    print("please check your number")
 
 
-from datetime import date 
-import os
 
-a = input("Enter what you want to do: ")
-
-if( a == '1'):
-    today = date.today()
-    print("Current date:", today)
-
-
-elif(a=='2'):
-    print("hjfghjsd")
-    path = "D:/python/Third"
-    os.makedirs(path)
-
-    print("Succesfully created directory ", path)
-    print(os.getcwd())
-
-# else:
-#    print("bahar aa jao")
 
