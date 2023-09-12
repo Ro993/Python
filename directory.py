@@ -11,8 +11,7 @@ if( a == '1'):
 
 
 elif(a=='2'):
-    print("hjfghjsd")
-    path = "D:/python/Third"
+    path =input("Enter your path")
     os.makedirs(path)
 
     print("Succesfully created directory ", path)
